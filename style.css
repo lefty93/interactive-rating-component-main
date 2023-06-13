@@ -1,0 +1,168 @@
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+  margin: 0;
+  background-color: #141519;
+}
+
+.rating-container, .thankyou-container {
+  background-color: #212832;
+  display: flex;
+  flex-direction: column;
+  width: 350px;
+  height: 310px;
+  border-radius: 15px;
+  padding: 5px;
+}
+
+
+
+.icon-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: #262f38;
+  padding: 5px;
+  box-sizing: border-box;
+  margin: 10px;
+}
+
+.icon-star {
+  width: 50%;
+  height: 50%;
+}
+
+.question-container {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  font-family: "Overpass", sans-serif;
+}
+
+.question-container > h2 {
+  color: #fff;
+  margin: 1px;
+  font-size: 25px;
+  font-weight: 700;
+}
+
+.question-container > p {
+  color: hsl(217, 12%, 63%);
+  margin: 1px;
+  font-size: 15px;
+  font-weight: 400;
+}
+
+.button-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.button-container > #submit-buttons {
+  background-color: #fb7617;
+  color: #fff;
+  border: none;
+  border-radius: 25px;
+  height: 35px;
+  width: 330px;
+  margin: 10px;
+  cursor: pointer;
+}
+
+.thankyou-container {
+  justify-content: center;
+  align-items: center;
+  display: none;
+  
+}
+
+.thankyouimg-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+  box-sizing: border-box;
+  margin: 5px;
+}
+
+.thankyouimg-container > p {
+  background-color: #282e33;
+  font-size: 12px;
+  text-align: center;
+  padding: 8px;
+  border-radius: 15px;
+  color: #fb7617;
+  margin-bottom: 0;
+  font-family: "Overpass", sans-serif;
+}
+
+.response-container {
+  display: flex;
+  flex-direction: column;
+  padding: 5px;
+  font-family: "Overpass", sans-serif;
+  text-align: center;
+}
+
+.response-container > h2 {
+  color: #fff;
+  margin: 1px;
+  font-size: 25px;
+  font-weight: 700;
+}
+
+.response-container > p {
+  color: hsl(217, 12%, 63%);
+  margin: 1px;
+  font-size: 15px;
+  font-weight: 400;
+}
+
+#rating-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin: 10px;
+}
+
+#rating-buttons button {
+  height: 50px;
+  width: 50px;
+  background-color: #273039;
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+  color: hsl(217, 12%, 63%);
+}
+
+#rating-buttons button:hover {
+  background-color: #ddd;
+  color: #fff;
+}
+
+#rating-buttons button.active {
+  background-color: #fb7617;
+  color: #fff;
+}
+
+#rating-buttons button.clicked {
+  background-color: #7b8898;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  color: #fff;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
